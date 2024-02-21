@@ -1,15 +1,7 @@
 package Vehicle;
 
-public class Bicycle extends Vehicle implements Maintainable{
+public class Bicycle extends Vehicle{
     public Bicycle(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
-    }
-
-    @Override
-    public void checkTrailer() {
-    }
-
-    @Override
-    public void checkEngine() {
     }
 }

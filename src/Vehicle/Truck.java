@@ -1,6 +1,6 @@
 package Vehicle;
 
-public class Truck extends Vehicle implements Maintainable{
+public class Truck extends TrailerVehicle{
     public Truck(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
